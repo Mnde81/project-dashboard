@@ -136,3 +136,60 @@ h1 {
     border-bottom: 1px solid #547DBF;
     color: #547DBF;  
 }
+
+.notifications {
+    grid-area: notifications;    
+    height: 250px;    
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.notifications-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.notifications-title > p {
+    color: #547DBF;
+    font-size: 12px;
+}
+
+.notifications-bell {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.notif-bell-icon {
+    width: 25px;
+}
+
+.notifications-div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: white;
+    padding-left: 15px;
+    position: relative;
+    border-radius: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.notifications-div > p {
+    font-size: 12px;
+}
+
+.notif-icons-1 {
+    width: 40px;
+}
+
+.notif-icons-2 {
+    width: 16px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
