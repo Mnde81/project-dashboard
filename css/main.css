@@ -14,7 +14,7 @@ body {
 main {
     background-color: #EEF2F9;
     display: grid;
-    grid-template-columns: 1fr 400px;
+    grid-template-columns: 1fr 500px;
     grid-template-areas:
     "header header"
     "title title"
@@ -35,7 +35,7 @@ main {
 }
 
 h1 {
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 .byday {
@@ -77,4 +77,62 @@ h1 {
     background-color: #C1CFE7;
     cursor: pointer;
     color: black;
+}
+
+.george {
+    grid-area: george;
+    height: 250px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 30px;
+    padding-left: 40px;
+}
+
+.hi {
+    font-size: 30px;
+}
+
+.what {
+    color:#848E98
+}
+
+.george-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.george-icons {
+    width: 20px;
+}
+
+.george-icons-1 {
+    width: 19px;
+}
+
+.george-links > p {
+    font-size: 12px;
+}
+
+.george-logo {
+    position: absolute;
+    top: -70px;
+    right: 80px;
+    width: 250px;
+}
+
+.ic2 {
+    margin-left: 15px;
+}
+
+.ic4 {
+    margin-left: 13px;
+}
+
+.workers {
+    border-bottom: 1px solid #547DBF;
+    color: #547DBF;  
 }
