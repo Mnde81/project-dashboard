@@ -190,6 +190,57 @@ h1 {
 .notif-icons-2 {
     width: 16px;
     position: absolute;
-    top: 16px;
+    top: 18px;
     right: 16px;
+}
+
+.notif-icons-3 {
+    width: 22px;
+    position: absolute;
+    top: -7px;
+    right: -7px;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    grid-area: blocks;
+    margin-left: 30px;
+    margin-top: 15px;
+    gap: 30px;
+}
+
+.project-1 {
+    display: flex;
+    flex-direction: column;
+    width: 294px;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-top: 25px;
+    box-shadow: 10px 20px 30px 10px rgba(81, 122, 189, 0.3);
+}
+
+.icons-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 25px;
+}
+
+.project-icons {
+    width: 40px;
+}
+
+.icon-dots {
+    width: 20px;
+}
+
+.project-title {
+    margin-top: 20px;
+    color: #87919B;
+}
+
+.project-money {
+    font-size: 25px;
 }
