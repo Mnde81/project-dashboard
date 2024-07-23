@@ -26,3 +26,55 @@ main {
     padding: 20px 30px;
  
 }
+
+.title-sec {
+    grid-area: title;
+    display: flex;
+    justify-content:space-between;   
+    align-items: center;
+}
+
+h1 {
+    margin-left: 50px;
+}
+
+.byday {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 50px;
+}
+
+.byday-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 160px;
+    border: 2px solid #C8CFD8;
+    border-radius: 10px;
+    padding: 0px 15px;    
+}
+
+.byday-2 > p {
+    font-size: 14px;
+}
+
+.title-icon {
+    width: 25px;
+}
+
+.byday > button {
+    background-color: #517ABD;
+    border: none;
+    border-radius: 10px;
+    width: 160px;
+    padding: 15px 15px;
+    color: white;
+    box-shadow: 10px 20px 30px 10px rgba(81, 122, 189, 0.3);
+}
+
+.byday > button:hover {
+    background-color: #C1CFE7;
+    cursor: pointer;
+    color: black;
+}
