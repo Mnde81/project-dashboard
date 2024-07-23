@@ -13,4 +13,16 @@ body {
 
 main {
     background-color: #EEF2F9;
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    grid-template-areas:
+    "header header"
+    "title title"
+    "george notifications"
+    "blocks blocks";
+    align-items: start;
+    align-content: start;
+    gap: 20px;
+    padding: 20px 30px;
+ 
 }
